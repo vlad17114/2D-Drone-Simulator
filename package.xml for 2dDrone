@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>setpoint_server</name>
+  <version>0.0.0</version>
+  <description>The setpoint_server package</description>
+
+  <maintainer email="bzhouai@todo.todo">bzhouai</maintainer>
+  <license>MIT</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+
+  <!-- ROS 2 core dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <!-- PCL and pcl_conversions -->
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>PCL</build_depend>
+  <build_depend>px4_msgs</build_depend>
+
+  <!-- Export dependencies -->
+  <build_export_depend>rclcpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>pcl_conversions</build_export_depend>
+  <build_export_depend>pcl_ros</build_export_depend>
+  <build_export_depend>PCL</build_export_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>px4_msgs</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>PCL</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>px4_msgs</exec_depend>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
