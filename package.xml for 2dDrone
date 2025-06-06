@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>setpoint_server</name>
+  <name>twoDdrone</name>
   <version>0.0.0</version>
   <description>The setpoint_server package</description>
 
